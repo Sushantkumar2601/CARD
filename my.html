@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            width: 100vw;
+
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+            background-color: #15f979; 
+             background-image: linear-gradient(10deg, #a6bb5b 0%, #b3b336 100%);
+
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+        }
+
+        .main {
+            box-shadow: 0 0 15px black;
+            height: 350px;
+            width: 700px;
+            display: flex;
+            flex-direction: row;
+            background-color: white;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            border-bottom-right-radius: 25px;
+
+        }
+
+        .imgg {
+            object-position: center;
+
+            height: 100%;
+            width: 250px;
+            object-fit: cover;
+            border-top-left-radius: 24px;
+            border-bottom-left-radius: 25px;
+
+        }
+        .titlebox {
+
+            width: 200px;
+            display: flex;
+            justify-content: center;
+            margin: 10px 30px 5px
+        }
+
+        .content {
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+            height: 240px;
+            /* display: flex;
+            justify-content: center;
+            align-items: center; */
+            text-align: center;
+            padding: 60px;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            width: 200px;
+            text-align: center;
+            margin: 10px auto;
+        }
+
+        .follow {
+            border: 1px solid black;
+            width: 80px;
+            height: 40px;
+            padding: 9px;
+            margin-top: 5px;
+            display: flex;
+            justify-content: center;
+            border-radius: 5px;
+            background-color: rgb(94, 189, 221);
+            font-weight: 700;
+        }
+        .message {
+            border: 1px solid black;
+            width: 80px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            margin-top: 5px;
+            padding: 9px;
+            border-radius: 5px;
+            background-color: white;
+            font-weight: 700;
+
+        }
+
+        .rightbox {
+            background-color: #15f979; 
+             background-image: linear-gradient(90deg, #6cc994 0%, #afaf76 100%);
+            border-top-right-radius: 25px;
+            border-bottom-right-radius: 25px;
+
+
+        }
+
+        #text {
+            font-size: 20px;
+        }
+
+        #auth {
+            text-align: end;
+            font-weight: 900;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="leftbox">
+                <img src="pots.jpg" alt="sk" class="imgg">
+            </div>
+            <div class="rightbox">
+                <div class="titlebox">
+                    <h2 id="pot">FLOWER POTS</h2>
+                </div>
+                <div class="content">
+                    <p id="text">Collect a little spring sunshine with our Jasmine Blossoms,
+                        fresh garden roses and butterfly/bee-inspired silk flowers.
+                        Comes in a cheerful white ceramic pot w/a drainage hole. Perfect
+                        for sunny windowsills or outdoor patios. </p>
+                    <p id="auth">By J.J Winsome...</p>
+                </div>
+                <div class="footer">
+                    <div class="follow">
+                        <p>Follow</p>
+                    </div>
+                    <div class="message">
+                        <p>Message</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
